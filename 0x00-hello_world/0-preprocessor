@@ -1,3 +1,3 @@
 #!/bin/bash
-#task 0
+#running a c file through the processor and save the result to another file
 gcc -E $CFILE -o c
