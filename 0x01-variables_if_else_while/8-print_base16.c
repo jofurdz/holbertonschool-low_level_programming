@@ -11,6 +11,7 @@ for (x = '0'; x <= '9'; x++)
 {
 putchar(x);
 }
+putchar('\n')
 for (p = 'a'; p <= 'f'; p++)
 {
 putchar(p);
