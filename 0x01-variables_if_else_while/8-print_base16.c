@@ -14,7 +14,7 @@ putchar(x);
 for (p = 'a'; p <= 'f'; p++)
 {
 putchar(p);
-putchar('\n');
 }
+putchar('\n');
 return (0);
 }
