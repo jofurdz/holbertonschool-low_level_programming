@@ -1,15 +1,18 @@
 #include "holberton.h"
 /**
-* main - printing alphabet 10 times
+* print_alphabet_x10 - printing alphabet 10 times
 *Return: 0
 */
 void print_alphabet_x10(void)
 {
-while(x <= 10);
-for (x = 'a'; x <= 'z'; x++)
+int x = 0;
+char p;
+while(x++ <= 9)
+{
+for (p = 'a'; p <= 'z'; p++)
 {
 _putchar(x);
 }
 _putchar('\n');
-return (0);
+}
 }
