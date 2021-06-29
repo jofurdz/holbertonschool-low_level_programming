@@ -5,3 +5,7 @@
 *Return: 0
 */
 void jack_bauer(void);
+int x;
+int h;
+
+for (x <= 24; 
