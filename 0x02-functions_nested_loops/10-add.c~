@@ -1,0 +1,12 @@
+#include "holberton.h"
+/**
+*
+*
+*Return: 0
+*/
+int add(int x, int p)
+{
+int a;
+a = x + p;
+return (a);
+}
