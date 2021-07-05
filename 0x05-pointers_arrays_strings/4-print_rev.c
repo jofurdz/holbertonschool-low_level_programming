@@ -12,12 +12,11 @@ while (*s)
 s++;
 length++;
 }
-while (length >= 0)
+while (length > 0)
 {
 s--;
 length--;
 _putchar (*s);
 }
 _putchar ('\n');
-
 }
