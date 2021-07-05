@@ -1,6 +1,7 @@
 #include "holberton.h"
 /**
 * _strlen - lkangdfkagi
+*
 *@s: string to be returned
 *
 *Return: 0
@@ -12,5 +13,5 @@ while (*s++)
 {
 length++;
 }
-return length;
+return (length);
 }
