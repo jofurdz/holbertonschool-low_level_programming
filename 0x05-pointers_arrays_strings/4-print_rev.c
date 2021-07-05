@@ -14,9 +14,9 @@ length++;
 }
 while (length >= 0)
 {
+s--;
 length--;
 _putchar (*s);
-s--;
 }
 _putchar ('\n');
 
