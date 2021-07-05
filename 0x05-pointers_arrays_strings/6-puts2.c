@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
-* _puts - prints every other character of a string
+* puts2 - prints every other character of a string
 *
 * @str: string to be printed
 */
@@ -8,9 +8,9 @@ void puts2(char *str)
 {
 while (*str)
 {
+str++;
+str++;
 _putchar (*str);
-str++;
-str++;
 }
 _putchar('\n');
 }
