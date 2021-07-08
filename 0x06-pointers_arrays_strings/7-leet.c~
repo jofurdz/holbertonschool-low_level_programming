@@ -1,0 +1,27 @@
+#include "holberton.h"
+/**
+ *
+ *
+ *
+ */
+char *replc_char(char *a, char tobrepl, char replcr);
+
+char *leet(char *str)
+{
+	str = replc_char(str, 'a', '4');
+	return (str);
+}
+char *replc_char(char *a, char tobrepl, char replcr)
+{
+	int length = 0;
+	while (*a++)
+	{
+		if (*a == tobrepl)
+		{
+			*a = replcr;
+		 }
+		length++;
+	}
+	a -= length + 1;
+	return (a);
+}
