@@ -1,0 +1,28 @@
+#include "holberton.h"
+/**
+* *str_cat - linking two strings
+* @dest
+* @src
+*Return: 0
+*/
+char *_strcat(char *dest, char *src)
+{
+char *my_strcat(char *strg1, char *strg2)
+{
+    char *start = strg1;
+
+    while(*strg1 != '\0')
+    {
+        strg1++;
+    }
+
+    while(*strg2 != '\0')
+    {
+        *strg1 = *strg2;
+        strg1++;
+        strg2++;
+    }
+
+    *strg1 = '\0';
+    return start;
+}
