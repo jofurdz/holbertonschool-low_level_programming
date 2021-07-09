@@ -1,5 +1,4 @@
 #include "holberton.h"
-#include <stddef.h>
 /**
  * _strchr - locates a character in a string
  * @s: char to be printed
@@ -16,7 +15,7 @@ return (s);
 }
 if (!*s)
 {
-return (NULL);
+return ('\0');
 }
-return (NULL);
+return ('\0');
 }
