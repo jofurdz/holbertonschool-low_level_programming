@@ -8,7 +8,7 @@
 */
 char *_strncpy(char *dest, char *src, int n)
 {
-	char* ptr = dest;
+	char *ptr = dest;
 		while (*src && n--)
 		{
 			*dest = *src;
@@ -16,5 +16,5 @@ char *_strncpy(char *dest, char *src, int n)
 				src++;
 		}
 	*dest = *src;
-	return ptr;
+	return (ptr);
 }
