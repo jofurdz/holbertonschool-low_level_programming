@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
-* strcat - linking two strings
+* _strcat - linking two strings
 * @dest: string to be linked
 * @src: string to be linked
 *Return: 0
