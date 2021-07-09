@@ -13,9 +13,8 @@ int i;
 
 while (*dest != '\0')
 {
-dest++;
+	dest++;
 }
-
 for (i = 0; i < n; i++)
 {
 *dest = *src;
