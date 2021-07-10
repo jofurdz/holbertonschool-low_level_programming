@@ -7,15 +7,21 @@
  */
 char *_strchr(char *s, char c)
 {
-for (;; s++)
-{
-if (*s == c)
-{
-return (s);
-}
-if (!*s)
-{
-return ('\0');
-}
-return ('\0');
+	char *find = ('\0');
+
+	if (*s != '\0')
+	{
+		do {
+
+			if (*s == c)
+			{
+				find = s;
+				break;
+			}
+		}
+
+	while (*s++);
+
+	}
+	return (find);
 }
