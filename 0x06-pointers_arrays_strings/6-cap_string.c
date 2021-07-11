@@ -4,7 +4,7 @@
  * @s: char to be printed
  *Return: 0
  */
-char *cap_string(char *s)
+char *cap_string(char *str)
 {
 	int index = 0;
 
