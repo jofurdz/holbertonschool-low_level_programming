@@ -1,9 +1,10 @@
 #include "holberton.h"
 #include <string.h>
 /**
- *
- *
- *
+ * _strspn - gets the length of a prefix substring
+ * @s: string to be measured
+ * @accept: string to be measured
+ *Return: 0
  */
 unsigned int _strspn(char *s, char *accept)
 {
