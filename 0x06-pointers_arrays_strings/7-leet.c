@@ -1,8 +1,12 @@
 #include "holberton.h"
 /**
+ * leet - encodes a string into 1337
  *
+ * @a: char to be printed
+ * @tobrepl: char to be replaced
+ * @replcr: char replacing
  *
- *
+ *Return: 0
  */
 char *replc_char(char *a, char tobrepl, char replcr);
 
@@ -23,14 +27,16 @@ char *leet(char *str)
 char *replc_char(char *a, char tobrepl, char replcr)
 {
 	int length = 0;
-	while (*a++)
+
+	while (*a)
 	{
 		if (*a == tobrepl)
 		{
 			*a = replcr;
-		 }
+		}
+		a++;
 		length++;
 	}
-	a -= length + 1;
+	a -= length;
 	return (a);
 }
