@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * leet - encodes a string into 1337
+ * replc_char - encodes a string into 1337
  *
  * @a: char to be printed
  * @tobrepl: char to be replaced
