@@ -1,15 +1,14 @@
-  
 #ifndef HOLBERTON_H
 #define HOLBERTON_H
 int _putchar(char c);
 int _islower(int c);
 int _isalpha(int c);
-int _abs(int n);
+int _abs(int x);
 int _isupper(int c);
 int _isdigit(int c);
 int _strlen(char *s);
-void _puts(char *s);
-char *_strcpy(char *dest, char *src);
+void _puts(char *str);
+char *_strcpy(char *dest, char *src, int n);
 int _atoi(char *s);
 char *_strcat(char *dest, char *src);
 char *_strncat(char *dest, char *src, int n);

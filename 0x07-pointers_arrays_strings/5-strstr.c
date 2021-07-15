@@ -1,16 +1,31 @@
 #include "holberton.h"
-#include <string.h>
+#define NULL 0
 /**
- * _strstr - function that locates a substring
- * @haystack: char to br printed
- * @needle: char to be printed
- *Return: 0
+ * _strstr - locates a substring.
+ *
+ * @haystack: the string.
+ * @needle: the substring.
+ *
+ * Return: beginning of the located substring, or NULL.
  */
 char *_strstr(char *haystack, char *needle)
 {
-size_t n = strlen(needle);
-while (*haystack)
-if (!memcmp(haystack++, needle, n))
-return ((char *) (haystack - 1));
-return (0);
+	char *a = haystack, *b = needle;
+
+	for (;;)
+	{
+		if (!*b)
+		{
+			return ((char *)haystack);
+		}
+		if (!*a)
+		{
+			return (NULL);
+		}
+		if (*a++ != *b++)
+		{
+			a = ++haystack;
+			b = needle;
+		}
+	}
 }
