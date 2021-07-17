@@ -10,13 +10,14 @@ int main(int argc, char *argv[])
 {
 	int a, b, result = 0;
 
+	/* using 'a' to iterate through arguments */
 	for (a = 1; a < argc; a++)
 	{
 		for (b = 0; argv[a][b]; b++)
 		{
 			if (argv[a][b] < '0' || argv[a][b] > '9')
 			{
-				printf("error\n");
+				printf("Error\n");
 				return (1);
 			}
 		}
