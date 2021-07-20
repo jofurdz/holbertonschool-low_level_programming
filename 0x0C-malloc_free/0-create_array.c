@@ -5,7 +5,6 @@
  * create_array - creates an array of characters
  * @size: size of pointer
  * @c: char to be printed
- * @i: int to be printed
  *
  * Return: 0
  */
