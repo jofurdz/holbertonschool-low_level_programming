@@ -13,9 +13,17 @@ char *_strdup(char *str)
 	char *p;
 	int len = 0;
 
+	if (str == NULL)
+	{
+		return (NULL);
+	}
 	while (str[len])
 		len++;
 	x = malloc(len + 1);
+	if (x == NULL)
+	{
+		return (NULL);
+	}
 	p = x;
 	while (*str)
 		*p++ = *str++;
