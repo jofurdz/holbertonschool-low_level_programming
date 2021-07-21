@@ -1,5 +1,6 @@
 #include "holberton.h"
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * free_grid - frees previous 2 dimensional grid
  *
@@ -12,9 +13,9 @@ void free_grid(int **grid, int height)
 {
 	int x;
 
-	for (x = 0, x < height; x++)
+	for (x = 0; x < height; x++)
 	{
-		free(grid[i]);
+		free(grid[x]);
 	}
 	free(grid);
 }
