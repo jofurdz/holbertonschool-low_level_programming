@@ -6,14 +6,14 @@
  *
  * @s1: first string
  * @s2: second string
+ * @n: unsigned int
  *
  *Return: 0
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *blah;
-	unsigned int p, x;
-	int length1 = 0, length2 = 0;
+	unsigned int p, x, length1 = 0, length2 = 0;
 
 	if (s1 == NULL)
 	{

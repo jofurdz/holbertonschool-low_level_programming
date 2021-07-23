@@ -4,8 +4,8 @@
 /**
  * _calloc - allocated memory for an array
  *
- * @nmemb:
- * @size:
+ * @nmemb: array
+ * @size: size of array
  *
  *Return: 0
  */
