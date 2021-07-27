@@ -3,7 +3,7 @@
 /**
  * int_index - searches for an int
  *
- * @array: size of array
+ * @array: poop
  * @size: size of the array
  * @cmp: pointer to function
  *
@@ -30,5 +30,5 @@ int int_index(int *array, int size, int (*cmp)(int))
 			return (x);
 		}
 	}
-	return (x);
+	return (-1);
 }
