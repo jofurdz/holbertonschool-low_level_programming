@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * prints_all - prints anything
+ * print_all - prints anything
  *
  * @format: types of arguments passed to the function
  *
@@ -30,7 +30,7 @@ void print_all(const char *const format, ...)
 		case 's':
 			string = va_arg(blah, char *);
 			if (string == NULL)
-			{ printf("(nil");
+			{ printf("(nil)");
 				break; }
 			printf("%s", string);
 			break;
