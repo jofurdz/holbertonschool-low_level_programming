@@ -8,7 +8,7 @@
  * @n: bit to be printed
  * @index: index of the bit to be printed
  *
- *Return: the value of bit at index 
+ *Return: the value of bit at index
  */
 
 int get_bit(unsigned long int n, unsigned int index)
