@@ -9,7 +9,7 @@
  *Return: count
  */
 
-int countSetBits(int n)
+unsigned int countSetBits(int n)
 {
 	unsigned int count = 0;
 
