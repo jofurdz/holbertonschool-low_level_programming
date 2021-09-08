@@ -1,10 +1,10 @@
 #include "lists.h"
 
 /**
- * 
- * 
- * 
- * 
+ * free_dlistint - frees a dlistint
+ *
+ * @head: the head
+ *Return: void
  */
 
 void free_dlistint(dlistint_t *head)
@@ -15,10 +15,20 @@ void free_dlistint(dlistint_t *head)
 	{
 		return;
 	}
-	while (head != NULL)
+	while (tmp)
 	{
-		head = head->next;
-		free(tmp->prev);
-		free(tmp);
+		if (tmp->prev != NULL)
+		{
+			free(tmp->prev);
+		}
+		if (tmp->next == NULL)
+		{
+			free(tmp);
+			return;
+		}
+		else
+		{
+			tmp = tmp->next;
+		}
 	}
 }
