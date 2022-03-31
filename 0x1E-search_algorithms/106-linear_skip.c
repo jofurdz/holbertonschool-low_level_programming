@@ -1,7 +1,9 @@
 #include "search_algos.h"
 /**
- *
- *
+ * linear_skip - searches for a value in a sorted skip list of integers
+ * @list: list to be searched
+ * @value: value to be returned
+ * Return: pointer to value
  */
 skiplist_t *linear_skip(skiplist_t *list, int value)
 {
